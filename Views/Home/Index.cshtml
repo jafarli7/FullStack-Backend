@@ -2,6 +2,81 @@
 @{
     int count = 0;
 }
+
+<style>
+    .popubbdy {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+
+    #popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 9999;
+    }
+
+    #popup-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        max-width: 400px;
+    }
+
+    #popup-logo {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 20px;
+    }
+
+    #confirm-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+        margin-top: 10px;
+    }
+
+    #close-button1 {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    #confirm-button {
+        background-color: black;
+    }
+
+        #confirm-button:hover {
+            background-color: #b0b0b0;
+            color: black;
+        }
+</style>
+
+<div class="popubbdy">
+    <div id="popup">
+        <div id="popup-content">
+            <img id="popup-logo" src="Front/img/logo-no-background.png" alt="Logo">
+            <h3>Are you over the age of 18?</h3>
+            <p>The reason we asked this is because shopping data <br> is made with a credit card on our site.</p>
+            <button id="confirm-button">Yes</button>
+            <span id="close-button1" onclick="closePopup()">&times;</span>
+        </div>
+    </div>
+</div>
 <!-- Hero start -->
 <section id="hero">
     <h4>Trade-in-offer</h4>
@@ -140,3 +215,33 @@
         <button class="normal">Sign Up</button>
     </div>
 </section>
+
+<script>
+    function showPopup() {
+        document.getElementById('popup').style.display = 'block';
+    }
+
+    function closePopup() {
+        document.getElementById('popup').style.display = 'none';
+    }
+
+    function onayla() {
+        var yas = prompt("Lütfen yaşınızı girin:");
+        if (yas !== null && yas !== "" && parseInt(yas) >= 18) {
+            // 18 yaşından büyükse, sayfaya giriş yapılsın
+            // Burada istediğiniz sayfaya yönlendirebilirsiniz.
+            alert("Siteye giriş yapıldı!");
+            closePopup();
+        } else {
+            // 18 yaşından küçükse veya yaş bilgisi girilmemişse hata mesajı gösterilsin
+            alert("18 yaşından büyük olmalısınız!");
+        }
+    }
+
+    document.getElementById('confirm-button').addEventListener('click', onayla);
+
+    // Sayfa yüklendiğinde popup'ı göstermek için:
+    window.onload = function () {
+        showPopup();
+    };
+</script>
