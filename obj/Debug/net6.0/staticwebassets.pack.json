@@ -329,6 +329,10 @@
       "PackagePath": "staticwebassets\\assets\\css\\style.css"
     },
     {
+      "Id": "C:\\Users\\mahmu\\OneDrive\\Masaüstü\\EnGlamor\\wwwroot\\assets\\img\\3.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\3.webp"
+    },
+    {
       "Id": "C:\\Users\\mahmu\\OneDrive\\Masaüstü\\EnGlamor\\wwwroot\\assets\\img\\Anafoto.webp",
       "PackagePath": "staticwebassets\\assets\\img\\Anafoto.webp"
     },
@@ -739,6 +743,14 @@
     {
       "Id": "C:\\Users\\mahmu\\OneDrive\\Masaüstü\\EnGlamor\\wwwroot\\assets\\img\\saat\\saat 6.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\saat\\saat 6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mahmu\\OneDrive\\Masaüstü\\EnGlamor\\wwwroot\\assets\\img\\son1.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\son1.webp"
+    },
+    {
+      "Id": "C:\\Users\\mahmu\\OneDrive\\Masaüstü\\EnGlamor\\wwwroot\\assets\\img\\son2.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\son2.webp"
     },
     {
       "Id": "C:\\Users\\mahmu\\OneDrive\\Masaüstü\\EnGlamor\\wwwroot\\assets\\img\\zara\\anafoto2.jpg",

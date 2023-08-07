@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/ZFoXUmdqtcXfT714zUPRLuVdB/55Qg7zzlSRC/pjHU=",
+  "Hash": "BjtUCW2ZTr9xqhBmmR7hQfFkOCpRNKYeRvWDfgZ50OQ=",
   "Source": "EnGlamor",
   "BasePath": "_content/EnGlamor",
   "Mode": "Default",
@@ -1426,6 +1426,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\mahmu\\OneDrive\\Masaüstü\\EnGlamor\\wwwroot\\assets\\img\\3.webp",
+      "SourceId": "EnGlamor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mahmu\\OneDrive\\Masaüstü\\EnGlamor\\wwwroot\\",
+      "BasePath": "_content/EnGlamor",
+      "RelativePath": "assets/img/3.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\3.webp"
     },
     {
       "Identity": "C:\\Users\\mahmu\\OneDrive\\Masaüstü\\EnGlamor\\wwwroot\\assets\\img\\about\\1.mp4",
@@ -3177,6 +3194,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\saat\\saat 6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\mahmu\\OneDrive\\Masaüstü\\EnGlamor\\wwwroot\\assets\\img\\son1.webp",
+      "SourceId": "EnGlamor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mahmu\\OneDrive\\Masaüstü\\EnGlamor\\wwwroot\\",
+      "BasePath": "_content/EnGlamor",
+      "RelativePath": "assets/img/son1.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\son1.webp"
+    },
+    {
+      "Identity": "C:\\Users\\mahmu\\OneDrive\\Masaüstü\\EnGlamor\\wwwroot\\assets\\img\\son2.webp",
+      "SourceId": "EnGlamor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mahmu\\OneDrive\\Masaüstü\\EnGlamor\\wwwroot\\",
+      "BasePath": "_content/EnGlamor",
+      "RelativePath": "assets/img/son2.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\son2.webp"
     },
     {
       "Identity": "C:\\Users\\mahmu\\OneDrive\\Masaüstü\\EnGlamor\\wwwroot\\assets\\img\\zara\\anafoto2.jpg",
