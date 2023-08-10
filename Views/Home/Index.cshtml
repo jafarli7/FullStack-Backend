@@ -6,74 +6,74 @@
 <style>
     .popubbdy {
         font-family: Arial, sans-serif;
-        text-align: center;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
     }
 
-    #popup {
-        display: none;
+    .overlay {
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.7);
-        z-index: 9999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5);
     }
 
-    #popup-content {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #fff;
+    .popup {
+        position: relative;
         padding: 20px;
-        border-radius: 5px;
-        max-width: 400px;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
     }
 
-    #popup-logo {
+    .logo {
         width: 70px;
         height: 70px;
         margin-bottom: 20px;
     }
 
-    #confirm-button {
-        padding: 10px 20px;
-        font-size: 16px;
-        background-color: #4CAF50;
-        color: #fff;
-        border: none;
-        cursor: pointer;
-        border-radius: 4px;
-        margin-top: 10px;
-    }
-
-    #close-button1 {
+    .close {
         position: absolute;
         top: 10px;
         right: 10px;
-        font-size: 20px;
+        font-size: 24px;
         cursor: pointer;
     }
 
-    #confirm-button {
-        background-color: black;
+    .discounts,
+    .credit-card {
+        margin-top: 10px;
     }
 
-        #confirm-button:hover {
-            background-color: #b0b0b0;
-            color: black;
-        }
+    .discounts {
+        font-size: 1.2em;
+    }
+
+    .credit-card {
+        font-size: 0.8em;
+    }
+
+</style>
 </style>
 
 <div class="popubbdy">
     <div id="popup">
         <div id="popup-content">
-            <img id="popup-logo" src="~/assets/img/logo-no-background.png" alt="Logo">
-            <h3>Are you over the age of 18?</h3>
-            <p>The reason we asked this is because shopping data  is made with a credit card on our site.</p>
-            <button id="confirm-button">Yes</button>
-            <span id="close-button1" onclick="closePopup()">&times;</span>
+            <div id="overlay" class="overlay">
+                <div id="popup" class="popup">
+                    <span class="close" id="closePopup">&times;</span>
+                    <img src="~/assets/img/logo-no-background.png" alt="Logo" class="logo">
+                    <h3 class="discounts">Our new summer discounts starting from 35% – don't miss out on the latest</h3>
+                    <p class="credit-card">Shopping data is made on our website with a credit card.</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -217,31 +217,21 @@
 </section>
 
 <script>
-    function showPopup() {
-        document.getElementById('popup').style.display = 'block';
-    }
+    document.addEventListener('DOMContentLoaded', function () {
+        const overlay = document.getElementById('overlay');
+        const popup = document.getElementById('popup');
+        const closePopupButton = document.getElementById('closePopup');
 
-    function closePopup() {
-        document.getElementById('popup').style.display = 'none';
-    }
+        overlay.style.display = 'flex';
 
-    function onayla() {
-        var yas = prompt("Lütfen yaşınızı girin:");
-        if (yas !== null && yas !== "" && parseInt(yas) >= 18) {
-            // 18 yaşından büyükse, sayfaya giriş yapılsın
-            // Burada istediğiniz sayfaya yönlendirebilirsiniz.
-            alert("Siteye giriş yapıldı!");
-            closePopup();
-        } else {
-            // 18 yaşından küçükse veya yaş bilgisi girilmemişse hata mesajı gösterilsin
-            alert("18 yaşından büyük olmalısınız!");
-        }
-    }
+        closePopupButton.addEventListener('click', () => {
+            overlay.style.display = 'none';
+        });
 
-    document.getElementById('confirm-button').addEventListener('click', onayla);
-
-    // Sayfa yüklendiğinde popup'ı göstermek için:
-    window.onload = function () {
-        showPopup();
-    };
+        overlay.addEventListener('click', (event) => {
+            if (event.target === overlay) {
+                overlay.style.display = 'none';
+            }
+        });
+    });
 </script>
