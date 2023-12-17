@@ -1257,7 +1257,7 @@ width: 70px;
 
  /* Home Page */
  #hero {
-    background-image: url(./img/indexsekilleri/AaaAAA.png);
+    background-image: url(~/assets/img/indexsekilleri/AaaAAA.png);
     height: 90vh;
     width: 100%;
     background-size: cover;

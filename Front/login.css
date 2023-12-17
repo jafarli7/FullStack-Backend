@@ -1,4 +1,6 @@
 * {
+
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -130,20 +132,14 @@ a.facebook{
 
 }
 a.facebook .fa-facebook-f{
-height: 28px;
-width: 28px;
-color: #0171d3;
-font-size: 20px;
-border-radius: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
-background-color: #fff;
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
 }
 .fa-facebook-f,
 img.google-img{
-    position: absolute;
-   margin-right: 21%;
+   /* position: absolute;*/
+   margin-right: 10%;
 }
 img.google-img{
     height: 20px;

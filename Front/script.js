@@ -34,21 +34,9 @@ increaseButton.addEventListener("click", function() {
 });
 
 addToCartButton.addEventListener("click", function() {
-  alert("Ürün sepete eklendi: " + count + " adet");
+ert("Product was added: " + count + " units added");
 });
 
 
-var scrollTopButton = document.getElementById("scrollTopButton");
 
-window.addEventListener("scroll", function() {
-  if (window.pageYOffset > 100) {
-    scrollTopButton.classList.add("show");
-  } else {
-    scrollTopButton.classList.remove("show");
-  }
-});
-
-scrollTopButton.addEventListener("click", function() {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-});
 
