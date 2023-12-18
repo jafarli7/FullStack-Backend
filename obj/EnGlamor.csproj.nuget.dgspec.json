@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mahmu\\OneDrive\\Masaüstü\\EnGlamor\\EnGlamor.csproj": {}
+    "C:\\Users\\isace\\Documents\\GitHub\\FullStack-Backend\\EnGlamor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mahmu\\OneDrive\\Masaüstü\\EnGlamor\\EnGlamor.csproj": {
+    "C:\\Users\\isace\\Documents\\GitHub\\FullStack-Backend\\EnGlamor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahmu\\OneDrive\\Masaüstü\\EnGlamor\\EnGlamor.csproj",
+        "projectUniqueName": "C:\\Users\\isace\\Documents\\GitHub\\FullStack-Backend\\EnGlamor.csproj",
         "projectName": "EnGlamor",
-        "projectPath": "C:\\Users\\mahmu\\OneDrive\\Masaüstü\\EnGlamor\\EnGlamor.csproj",
-        "packagesPath": "C:\\Users\\mahmu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahmu\\OneDrive\\Masaüstü\\EnGlamor\\obj\\",
+        "projectPath": "C:\\Users\\isace\\Documents\\GitHub\\FullStack-Backend\\EnGlamor.csproj",
+        "packagesPath": "C:\\Users\\isace\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\isace\\Documents\\GitHub\\FullStack-Backend\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mahmu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\isace\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -84,6 +78,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -92,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
