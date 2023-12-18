@@ -750,7 +750,7 @@ footer .copyright {
 
 
   #page-header.about-header {
-    background-image: url("img/about/banner.png");
+    background-image: url("~/assets/about/banner.png");
 }
 
 #about-head {
