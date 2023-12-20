@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ye79k2pMJsduEOcc8zrWt/wmpLjW9pVbrWBsiwEqkX0=",
+  "Hash": "mx90f1Jx5JEfor3g99OhYh/wsPepcSQQRpPrnnyoDrM=",
   "Source": "EnGlamor",
   "BasePath": "_content/EnGlamor",
   "Mode": "Default",
@@ -1782,6 +1782,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\blog\\b4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\isace\\Documents\\GitHub\\FullStack-Backend\\wwwroot\\assets\\img\\blog\\bd77201a-28dd-4740-9796-580c9d30e1ada6.jpg",
+      "SourceId": "EnGlamor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\isace\\Documents\\GitHub\\FullStack-Backend\\wwwroot\\",
+      "BasePath": "_content/EnGlamor",
+      "RelativePath": "assets/img/blog/bd77201a-28dd-4740-9796-580c9d30e1ada6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\blog\\bd77201a-28dd-4740-9796-580c9d30e1ada6.jpg"
     },
     {
       "Identity": "C:\\Users\\isace\\Documents\\GitHub\\FullStack-Backend\\wwwroot\\assets\\img\\facebook.png",

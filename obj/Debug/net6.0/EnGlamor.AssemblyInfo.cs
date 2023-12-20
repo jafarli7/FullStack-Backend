@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EnGlamor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be7111a9a0ff38d429d05e4a338d93493c0d6113")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("EnGlamor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EnGlamor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
