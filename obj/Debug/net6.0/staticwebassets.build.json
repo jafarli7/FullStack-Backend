@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mx90f1Jx5JEfor3g99OhYh/wsPepcSQQRpPrnnyoDrM=",
+  "Hash": "JVzSorM7xJZQvMUpS42jsSn3B7djc1aZdMPDq4YMpsg=",
   "Source": "EnGlamor",
   "BasePath": "_content/EnGlamor",
   "Mode": "Default",
@@ -2124,6 +2124,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\people\\3.png"
+    },
+    {
+      "Identity": "C:\\Users\\isace\\Documents\\GitHub\\FullStack-Backend\\wwwroot\\assets\\img\\products\\17104d5f-e6f3-4292-b2f2-d199c5d19f26banner1.png",
+      "SourceId": "EnGlamor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\isace\\Documents\\GitHub\\FullStack-Backend\\wwwroot\\",
+      "BasePath": "_content/EnGlamor",
+      "RelativePath": "assets/img/products/17104d5f-e6f3-4292-b2f2-d199c5d19f26banner1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\products\\17104d5f-e6f3-4292-b2f2-d199c5d19f26banner1.png"
     },
     {
       "Identity": "C:\\Users\\isace\\Documents\\GitHub\\FullStack-Backend\\wwwroot\\assets\\img\\products\\74.jpg",
