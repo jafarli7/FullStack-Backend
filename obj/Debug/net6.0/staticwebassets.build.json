@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JVzSorM7xJZQvMUpS42jsSn3B7djc1aZdMPDq4YMpsg=",
+  "Hash": "RO1iRr5JbdLeuEeKM9/S8QVE3FMt1cXM5ZdFHgOZTl8=",
   "Source": "EnGlamor",
   "BasePath": "_content/EnGlamor",
   "Mode": "Default",
@@ -2126,25 +2126,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\people\\3.png"
     },
     {
-      "Identity": "C:\\Users\\isace\\Documents\\GitHub\\FullStack-Backend\\wwwroot\\assets\\img\\products\\17104d5f-e6f3-4292-b2f2-d199c5d19f26banner1.png",
-      "SourceId": "EnGlamor",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\isace\\Documents\\GitHub\\FullStack-Backend\\wwwroot\\",
-      "BasePath": "_content/EnGlamor",
-      "RelativePath": "assets/img/products/17104d5f-e6f3-4292-b2f2-d199c5d19f26banner1.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\img\\products\\17104d5f-e6f3-4292-b2f2-d199c5d19f26banner1.png"
-    },
-    {
       "Identity": "C:\\Users\\isace\\Documents\\GitHub\\FullStack-Backend\\wwwroot\\assets\\img\\products\\74.jpg",
       "SourceId": "EnGlamor",
       "SourceType": "Discovered",
@@ -2278,12 +2259,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\products\\colt ar15.jpg"
     },
     {
-      "Identity": "C:\\Users\\isace\\Documents\\GitHub\\FullStack-Backend\\wwwroot\\assets\\img\\products\\fcab01db-cdd9-4846-946a-78105e689d4cbanner.png",
+      "Identity": "C:\\Users\\isace\\Documents\\GitHub\\FullStack-Backend\\wwwroot\\assets\\img\\products\\e16570a6-46e5-45f3-8626-4aa304d5df7aa6.jpg",
       "SourceId": "EnGlamor",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\isace\\Documents\\GitHub\\FullStack-Backend\\wwwroot\\",
       "BasePath": "_content/EnGlamor",
-      "RelativePath": "assets/img/products/fcab01db-cdd9-4846-946a-78105e689d4cbanner.png",
+      "RelativePath": "assets/img/products/e16570a6-46e5-45f3-8626-4aa304d5df7aa6.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2294,7 +2275,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\img\\products\\fcab01db-cdd9-4846-946a-78105e689d4cbanner.png"
+      "OriginalItemSpec": "wwwroot\\assets\\img\\products\\e16570a6-46e5-45f3-8626-4aa304d5df7aa6.jpg"
     },
     {
       "Identity": "C:\\Users\\isace\\Documents\\GitHub\\FullStack-Backend\\wwwroot\\assets\\img\\products\\g36.jpeg",
